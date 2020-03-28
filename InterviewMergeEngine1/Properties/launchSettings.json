@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "InterviewMergeEngine1": {
+      "commandName": "Project",
+      "commandLineArgs": "C:\\Users\\Adam\\source\\repos\\Conga_InterviewQuestion_Buggy\\ExampleData\\exampleData.txt C:/temp/conga.csv"
+    }
+  }
+}

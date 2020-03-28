@@ -1,0 +1,11 @@
+/Users/ksztengel/Downloads/Conga_InterviewQuestion_Buggy/InterviewMergeEngine1/bin/Debug/netcoreapp2.1/InterviewMergeEngine1.deps.json
+/Users/ksztengel/Downloads/Conga_InterviewQuestion_Buggy/InterviewMergeEngine1/bin/Debug/netcoreapp2.1/InterviewMergeEngine1.runtimeconfig.json
+/Users/ksztengel/Downloads/Conga_InterviewQuestion_Buggy/InterviewMergeEngine1/bin/Debug/netcoreapp2.1/InterviewMergeEngine1.runtimeconfig.dev.json
+/Users/ksztengel/Downloads/Conga_InterviewQuestion_Buggy/InterviewMergeEngine1/bin/Debug/netcoreapp2.1/InterviewMergeEngine1.dll
+/Users/ksztengel/Downloads/Conga_InterviewQuestion_Buggy/InterviewMergeEngine1/bin/Debug/netcoreapp2.1/InterviewMergeEngine1.pdb
+/Users/ksztengel/Downloads/Conga_InterviewQuestion_Buggy/InterviewMergeEngine1/obj/Debug/netcoreapp2.1/InterviewMergeEngine1.csprojAssemblyReference.cache
+/Users/ksztengel/Downloads/Conga_InterviewQuestion_Buggy/InterviewMergeEngine1/obj/Debug/netcoreapp2.1/InterviewMergeEngine1.csproj.CoreCompileInputs.cache
+/Users/ksztengel/Downloads/Conga_InterviewQuestion_Buggy/InterviewMergeEngine1/obj/Debug/netcoreapp2.1/InterviewMergeEngine1.AssemblyInfoInputs.cache
+/Users/ksztengel/Downloads/Conga_InterviewQuestion_Buggy/InterviewMergeEngine1/obj/Debug/netcoreapp2.1/InterviewMergeEngine1.AssemblyInfo.cs
+/Users/ksztengel/Downloads/Conga_InterviewQuestion_Buggy/InterviewMergeEngine1/obj/Debug/netcoreapp2.1/InterviewMergeEngine1.dll
+/Users/ksztengel/Downloads/Conga_InterviewQuestion_Buggy/InterviewMergeEngine1/obj/Debug/netcoreapp2.1/InterviewMergeEngine1.pdb
