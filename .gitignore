@@ -1,3 +1,6 @@
+bin 
+obj
+
 project.lock.json
 project.fragment.lock.json
 artifacts/
@@ -29,8 +32,3 @@ artifacts/
 *.scc
 *.vs/
 
-# Visual Studio cache files
-# files ending in .cache can be ignored
-*.[Cc]ache
-# but keep track of directories ending in .cache
-!*.[Cc]ache/
