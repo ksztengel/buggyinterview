@@ -63,7 +63,7 @@ namespace CongaInterview
             SortOpportunities();
             var builder = new StringBuilder();
             builder.Append("OppName,OppAmount,OppProbability,AccountName\n");
-            foreach(var o in _opportunities)
+            foreach (var o in _opportunities)
             {
                 var acctName = LookupAccount(o.AccountID);
                 builder.Append(o.Name + "," +
@@ -71,14 +71,18 @@ namespace CongaInterview
                     o.ProbabilityPercent + "," +
                     acctName + "\n");
             }
-            File.AppendAllText(_outPath, builder.ToString());
+            using (StreamWriter sw = new StreamWriter(_outPath))
+            {
+                sw.WriteLine(builder.ToString());
+
+            }
         }
 
         private string LookupAccount(string acctID)
         {
-            foreach(var a in _accounts)
+            foreach (var a in _accounts)
             {
-                if(a.ID == acctID)
+                if (a.ID == acctID)
                 {
                     return a.Name;
                 }
@@ -105,7 +109,7 @@ namespace CongaInterview
         {
             float maxAmount = 0.0f;
             var maxOpportunity = new Opportunity();
-            foreach(var o in _opportunities)
+            foreach (var o in _opportunities)
             {
                 if (o.Amount > maxAmount)
                 {
@@ -119,12 +123,14 @@ namespace CongaInterview
         /* internals */
         private void ParseInputData()
         {
-            var data = File.ReadAllText(_inputData);
+            StreamReader sr = new StreamReader(_inputData);
+
+            var data = sr.ReadToEnd();
             var blocks = data.Split("\r\n\r\n");
             foreach (var b in blocks)
             {
                 var blockType = b.Split("\r\n")[0];
-                switch (blockType)
+                switch (blockType.ToUpper())
                 {
                     case "ACCOUNT":
                         ParseAccount(b);

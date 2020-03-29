@@ -2,7 +2,7 @@
   "profiles": {
     "InterviewMergeEngine1": {
       "commandName": "Project",
-      //"commandLineArgs": "/Users/ksztengel/buggyinterview/ExampleData/exampleData.txt /tmp/conga.csv"
+      "commandLineArgs": "/Users/ksztengel/buggyinterview/ExampleData/exampleData.txt /tmp/conga.csv"
     }
   }
 }
