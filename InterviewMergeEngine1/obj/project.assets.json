@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/ksztengel/Downloads/Conga_InterviewQuestion_Buggy/InterviewMergeEngine1/InterviewMergeEngine1.csproj",
+      "projectUniqueName": "/Users/ksztengel/buggyinterview/InterviewMergeEngine1/InterviewMergeEngine1.csproj",
       "projectName": "InterviewMergeEngine1",
-      "projectPath": "/Users/ksztengel/Downloads/Conga_InterviewQuestion_Buggy/InterviewMergeEngine1/InterviewMergeEngine1.csproj",
+      "projectPath": "/Users/ksztengel/buggyinterview/InterviewMergeEngine1/InterviewMergeEngine1.csproj",
       "packagesPath": "/Users/ksztengel/.nuget/packages/",
-      "outputPath": "/Users/ksztengel/Downloads/Conga_InterviewQuestion_Buggy/InterviewMergeEngine1/obj/",
+      "outputPath": "/Users/ksztengel/buggyinterview/InterviewMergeEngine1/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

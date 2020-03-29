@@ -6,8 +6,8 @@ namespace CongaInterview
     {
         static void Main(string[] args)
         {
-            var dataPath = args[0];
-            var outPath = args[1];
+            var dataPath = "/Users/ksztengel/buggyinterview/ExampleData/exampleData.txt";
+            var outPath = "/tmp/conga.csv";
             var engine = new MergeEngine(dataPath, outPath);
             engine.Run();
         }

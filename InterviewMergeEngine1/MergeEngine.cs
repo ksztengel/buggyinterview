@@ -97,6 +97,7 @@ namespace CongaInterview
                 _opportunities.Remove(maxOppty);
                 sortedList.Add(maxOppty);
             }
+
             _opportunities = sortedList;
         }
 
@@ -106,9 +107,11 @@ namespace CongaInterview
             var maxOpportunity = new Opportunity();
             foreach(var o in _opportunities)
             {
-                if(o.Amount > maxAmount)
+                if (o.Amount > maxAmount)
+                {
                     maxAmount = o.Amount;
                     maxOpportunity = o;
+                }
             }
             return maxOpportunity;
         }
@@ -123,13 +126,13 @@ namespace CongaInterview
                 var blockType = b.Split("\r\n")[0];
                 switch (blockType)
                 {
-                    case "Account":
+                    case "ACCOUNT":
                         ParseAccount(b);
                         break;
-                    case "Opportunity":
+                    case "OPPORTUNITY":
                         ParseOpportunity(b);
                         break;
-                    case "Contact":
+                    case "CONTACT":
                         ParseContact(b);
                         break;
                 }
