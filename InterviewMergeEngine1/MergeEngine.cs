@@ -30,7 +30,7 @@ namespace CongaInterview
             public string Name;
             public string AccountID;
             public float ProbabilityPercent;
-            public float Amount;
+            public decimal Amount;
         }
 
         private class Contact
@@ -107,7 +107,7 @@ namespace CongaInterview
 
         private Opportunity GetLargestOpportunity()
         {
-            float maxAmount = 0.0f;
+            decimal maxAmount = 0;
             var maxOpportunity = new Opportunity();
             foreach (var o in _opportunities)
             {
@@ -184,7 +184,7 @@ namespace CongaInterview
                 Name = GetValue(insides[1]),
                 AccountID = GetValue(insides[2]),
                 ProbabilityPercent = float.Parse(GetValue(insides[3])),
-                Amount = float.Parse(GetValue(insides[4]))
+                Amount = decimal.Parse(GetValue(insides[4]))
             };
             _opportunities.Add(o);
         }
