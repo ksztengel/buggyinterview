@@ -5,7 +5,7 @@ using System.Text;
 
 namespace CongaInterview
 {
-    class MergeEngine
+    public class MergeEngine
     {
         string _inputData;
         string _outPath;

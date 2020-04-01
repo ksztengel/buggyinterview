@@ -15,7 +15,6 @@
 /Users/ksztengel/buggyinterview/InterviewMergeEngine1/bin/Debug/netcoreapp2.1/InterviewMergeEngine1.dll
 /Users/ksztengel/buggyinterview/InterviewMergeEngine1/bin/Debug/netcoreapp2.1/InterviewMergeEngine1.pdb
 /Users/ksztengel/buggyinterview/InterviewMergeEngine1/obj/Debug/netcoreapp2.1/InterviewMergeEngine1.csprojAssemblyReference.cache
-/Users/ksztengel/buggyinterview/InterviewMergeEngine1/obj/Debug/netcoreapp2.1/InterviewMergeEngine1.csproj.CoreCompileInputs.cache
 /Users/ksztengel/buggyinterview/InterviewMergeEngine1/obj/Debug/netcoreapp2.1/InterviewMergeEngine1.AssemblyInfoInputs.cache
 /Users/ksztengel/buggyinterview/InterviewMergeEngine1/obj/Debug/netcoreapp2.1/InterviewMergeEngine1.AssemblyInfo.cs
 /Users/ksztengel/buggyinterview/InterviewMergeEngine1/obj/Debug/netcoreapp2.1/InterviewMergeEngine1.dll
