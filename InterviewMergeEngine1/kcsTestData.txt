@@ -1,0 +1,95 @@
+﻿Account
+{
+	ID:001yuck6tyu38xwe314
+	Name:Beeswax Holdings
+	Contact:005belch67x4rncs0
+	BillingStreetAddress:42 Left-Hand Lane
+	BillingCity:El Paso
+	BillingState:Texas
+	BillingZipCode:70021
+}
+
+ACCOUNT
+{
+	ID:001ahem7y4cbp0145
+	Name:Math Is For Everyone
+	Contact:005belch67x4rncs0
+	BillingStreetAddress:308 Farm St
+	BillingCity:Ithaca
+	BillingState:New York
+	BillingZipCode:14805
+}
+
+Opportunity
+{
+	Name:A Grand Dream
+	AccountID:001yuck6tyu38xwe314
+	ProbabilityPercent:80
+	Amount:5600589145.34
+}
+
+contact
+{
+	ID:005belch67x4rncs0
+	Name:Shoryuken Wilson
+	PhoneNumber:915-587-7885
+}
+
+OPPORTUNITY
+{
+	Name:A Lesser Dream
+	AccountID:001yuck6tyu38xwe314
+	ProbabilityPercent:90
+	Amount:560589145.34
+}
+
+OPPORTUNITY
+{
+	Name:Worthless
+	AccountID:001yuck6tyu38xwe314
+	ProbabilityPercent:65
+	Amount:56.34
+}
+
+OPPORTUNITY
+{
+	Name:Elliptical Partial Differential Equations Solver Web Service
+	AccountID:001ahem7y4cbp0145
+	ProbabilityPercent:25
+	Amount:107842
+}
+
+Account
+{
+	ID:001yuck6tyu38xwe414
+	Name:Rainmaker LLC
+	Contact:005belch67x4rncs0
+	BillingStreetAddress:24 Right-Hand Lane
+	BillingCity:East Hampton
+	BillingState:New York
+	BillingZipCode:11037
+}
+
+OPPORTUNITY
+{
+	Name:Big Money
+	AccountID:001yuck6tyu38xwe414
+	ProbabilityPercent:90
+	Amount:660589145.34
+}
+
+OPPORTUNITY
+{
+	Name:LessThanWorthless
+	AccountID:001yuck6tyu38xwe314
+	ProbabilityPercent:65
+	Amount:6.34
+}
+
+OPPORTUNITY
+{
+	Name:LongShot
+	AccountID:001ahem7y4cbp0145
+	ProbabilityPercent:25
+	Amount:10782
+}
